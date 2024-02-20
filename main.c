@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
 	// DO NOT REMOVE THE BLOCK ABOVE THIS LINE //
 
 
-	char *cmdline = (char*) malloc(MAXBUF); // stores user input from commmand line
-
+	//char *cmdline = (char*) malloc(MAXBUF); // stores user input from commmand line
+	dsh();
 	return 0;
 }
