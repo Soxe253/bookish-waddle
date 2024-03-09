@@ -181,6 +181,7 @@ void mode2(char** array, int numTokens){
                 execv(array[0], array);
                 }
                 wait(NULL);
+                return;
             }
             else{//if not
                 printf("Command not Found\n");
